@@ -2,30 +2,27 @@ alert("Welcome to Ghanian Naming Culture!");
 prompt("When is your birthday"); //
 var age = prompt("Enter you age:");
 age;
-newFunction();
+var myBirthday = prompt("Enter your birthdat");
+var myGender = prompt("Enter your gender");
+vardateofBirth = prompt("Enter your date of birth");
+var dayoftheweek(d) = ("( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7");
+document.write("getDate() :" + dt.getDay());
 
-[CC - isthecenturydigits.Forexample1989hasCC = 19
+[CC - isthecenturydigits
 
-    YY - istheYeardigits(1989 hasYY = 89)
+    , YY - istheYeardigits
 
-    MM - istheMonth
+    , MM - istheMonth
 
-    DD - istheDayofthemonth
+    , DD - istheDayofthemonth
 
-    mod - isthemodulus
+    , mod - isthemodulus
 
-    function( % )
 ];
 
-const days = [alldaysoftheweekstartingwithSundaytoSaturday];
+function geAkanName() {
+    var days = [alldaysoftheweekstartingwithSundaytoSaturday];
 
-function newFunction() {
-    var add, dayoftheweek = function(_Dayoftheweek) {}(d) = (((CC / 4) - 2 * CC - 1), +((5 * YY / 4)), +((26 * (MM + 1) / 10)) + DD),
-        mod7;
-    where;
-}
-
-function getAkanName() {
     var maleAkanName = [Kwasi, Kwadwo, Kwabena, Kwaku, Yaw, Kofi, Kwame]
     if (Sunday) {
         console.log("Kwasi");
@@ -43,10 +40,7 @@ function getAkanName() {
     } else {
         console.log("Kwame")
     }
-}
-const days = [alldaysoftheweekstartingwithSundaytoSaturday];
 
-function getAkanName() {
     var femaleAkanName = [Akosua, Adowa, Abenaa, Akua, Yaa, Afua, Ama]
     if (Sunday) {
         console.log("Akosua");
@@ -69,25 +63,25 @@ function getAkanName() {
 function isinValidDate(str) {
     var parts = str.split('/');
     if (parts.length(d <= 0) return false;
+
+        function newFunction() {;
+        }
     }
-    else if (d > 31)
-        return false;
-
-}
-
-function isinValidMonth(str) {
-    var parts = str.split('/');
-    if (parts.length m <= 0)
-        return false;
-} else if (m > 12)
+    else(d > 31)
     return false;
 
-}
-else {
-    results === 0;
-    alert(AkanName);
-}
+    ;
 
-}
-}
-}
+    function isinValidMonth(str) {
+        var parts = str.split('/');
+        if (parts.length(m <= 0)
+
+            return false;
+        }
+        else return false;
+
+
+        else {
+            results === 0;
+            alert(AkanName);
+        }
