@@ -5,7 +5,7 @@ age;
 var myBirthday = prompt("Enter your birthdat");
 var myGender = prompt("Enter your gender");
 vardateofBirth = prompt("Enter your date of birth");
-var dayoftheweek(d) = ("( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7");
+var dayoftheweek = ("( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7");
 document.write("getDate() :" + dt.getDay());
 
 [CC - isthecenturydigits
@@ -62,26 +62,23 @@ function geAkanName() {
 
 function isinValidDate(str) {
     var parts = str.split('/');
-    if (parts.length(d <= 0) return false;
+    if (parts.length(d <= 0)) return false;
 
-        function newFunction() {;
-        }
+    function newFunction() {;
     }
-    else(d > 31)
-    return false;
+}
+elseif(d > 31)
+return false;
 
-    ;
+;
 
-    function isinValidMonth(str) {
-        var parts = str.split('/');
-        if (parts.length(m <= 0)
+function isinValidMonth(str) {
+    var parts = str.split('/');
+    if (parts.length(m <= 0))
 
-            return false;
-        }
-        else return false;
-
-
-        else {
-            results === 0;
-            alert(AkanName);
-        }
+        return false;
+}
+elseif {
+    (results = 0);
+    alert(AkanName);
+}
